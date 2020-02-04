@@ -1,0 +1,36 @@
+body{
+  background: #008080;
+  opacity: .9;
+}
+header {
+  background: #808080;
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  width: 100%;
+
+}
+.logo{
+  background: #800080;
+  margin-left: 10px;
+  border-radius: 20px 50px;
+  box-shadow: 10px 10px 20px #8080c0;
+  padding: 5px;
+  height: 85px;
+}
+nav ul li{
+  float: left;
+  margin-right: 30px;
+  padding-right: 20px;
+  list-style: none;
+
+  
+}
+nav ul li a{
+    text-decoration: none;
+    align-items: center;
+}
+nav ul li a:hover{
+  color:#ff0080; 
+  box-shadow: 5px 5px 10px;
+}
